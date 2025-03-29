@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders',
 ]
 
 MIDDLEWARE = [
@@ -148,5 +149,5 @@ MESSAGE_TAGS = {
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'karanbose1999@gmail.com'
-#EMAIL_HOST_PASSWORD = 'nsvn wlsm myeg vgjz'
+EMAIL_HOST_PASSWORD = 'nsvn wlsm myeg vgjz'
 EMAIL_USE_TLS = True
